@@ -12,35 +12,35 @@ const ScentGuessGame = () => {
     {
       name: "Keep My Colour Blonde Toning Spray",
       scent: "Strawberry",
-      image: "./assets/keep-my-colour-blonde-toning-spray.png",
+      image: "/assets/keep-my-colour-blonde-toning-spray.png",
       description: "A leave in spray with heat protection to neutralise brassiness and enhance blonde tones in hair. Spray sans rinçage avec protection thermique pour neutraliser les tons cuivrés et intensifier les tons blonds dans les cheveux.",
       productType: "spray"
     },
     {
       name: "Miracle Spray Hair Treatment",
       scent: "Watermelon", 
-      image: "./assets/miracle-spray-hair-treatment.png",
+      image: "/assets/miracle-spray-hair-treatment.png",
       description: "Delivering eleven benefits your hair will love. Leave in hair treatment. Add shine, smoothness and softness. Control frizz & flyaways. Moisturise. Strengthen fragile hair. Prevent split ends. Detangle & create manageability. Protect against heat styling. Enhance natural body. Repair dry damaged hair. Protect hair colour with UV filters. Prevent sun damage.",
       productType: "spray"
     },
     {
       name: "Deep Clean Clarifying Shampoo",
       scent: "Orange",
-      image: "./assets/deep-clean-clarifying-shampoo.png",
+      image: "/assets/deep-clean-clarifying-shampoo.png",
       description: "A daily cleansing shampoo that removes excess oil from the hair and scalp. For all hair types. Un shampooing nettoyant quotidien qui enlève l'excès d'huile des cheveux et du cuir chevelu. Pour tous types de cheveux.",
       productType: "shampoo"
     },
     {
       name: "Detangle My Hair Leave-In Spray", 
       scent: "Pear",
-      image: "./assets/detangle-my-hair-leave-in-spray.png",
+      image: "/assets/detangle-my-hair-leave-in-spray.png",
       description: "A lightweight detangler with pear extract to hydrate and tame hair. For all hair types. Démêlant léger à l'extrait de poire pour hydrater et dompter les cheveux. Pour tous types de cheveux.",
       productType: "spray"
     },
     {
       name: "Miracle Hair Mask",
       scent: "Coconut",
-      image: "./assets/miracle-hair-mask.png",
+      image: "/assets/miracle-hair-mask.png",
       description: "A blend of Aloe Vera and White Mulberry Leaf to restore and treat lost moisture, this antioxidant rich formula will leave hair feeling strong and hydrated. Perfect for colour treated hair. Un mélange d'Aloe Vera et de Feuille de Mûrier Blanc pour restaurer et traiter l'humidité perdue, cette formule riche en antioxydants laissera les cheveux forts et hydratés. Parfait pour les cheveux colorés.",
       productType: "mask"
     }
@@ -51,11 +51,11 @@ const ScentGuessGame = () => {
   // In your local version, replace these with your actual fruit image paths
   // Example: "./assets/strawberry.jpg" if you have them in an assets folder
   const fruitImages = {
-    "Strawberry": "./assets/strawberry.jpg", 
-    "Watermelon": "./assets/watermelon.jpg", 
-    "Orange": "./assets/orange.jpg", 
-    "Pear": "./assets/pear.jpg", 
-    "Coconut": "./assets/coconut.jpg" 
+    "Strawberry": "/assets/strawberry.jpg", 
+    "Watermelon": "/assets/watermelon.jpg", 
+    "Orange": "/assets/orange.jpg", 
+    "Pear": "/assets/pear.jpg", 
+    "Coconut": "/assets/coconut.jpg" 
   };
 
   const fruitEmojis = {
