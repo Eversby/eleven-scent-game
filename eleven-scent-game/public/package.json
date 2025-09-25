@@ -1,0 +1,14 @@
+{
+  "name": "eleven-scent-game",
+  "version": "1.0.0",
+  "description": "Eleven Australia Guess the Scent Game",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s public",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
