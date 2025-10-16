@@ -442,7 +442,9 @@ const ScentGuessGame = () => {
                 fontWeight: '900',
                 padding: '15px',
                 borderRadius: '10px',
-                marginBottom: '0'
+                marginBottom: '0',
+                textTransform: 'uppercase',
+                letterSpacing: '1px'
               }}>
                 Guess the scent
               </h3>
