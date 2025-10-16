@@ -242,8 +242,8 @@ const ScentGuessGame = () => {
               textTransform: 'uppercase',
               letterSpacing: '2px'
             }}>
-              To win
-            </h2>
+              to win
+            </h1>
             
             <div style={{
               fontSize: '1.2rem',
@@ -667,8 +667,7 @@ const ScentGuessGame = () => {
                   fontWeight: '900',
                   lineHeight: '1.6'
                 }}>
-                  You got them all correct!<br />
-                  You're a true Eleven Australia scent expert!
+                  You got them all correct!
                 </div>
               </>
             ) : (
