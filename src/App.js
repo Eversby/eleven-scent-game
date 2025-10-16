@@ -234,13 +234,15 @@ const ScentGuessGame = () => {
             }}>
               Guess the Scent
             </h1>
-            <h2 style={{
-              fontSize: '2rem',
+            <h1 style={{
+              fontSize: '3.5rem',
               fontWeight: '900',
               color: 'white',
-              marginBottom: '40px'
+              marginBottom: '40px',
+              textTransform: 'uppercase',
+              letterSpacing: '2px'
             }}>
-              to Win
+              To win
             </h2>
             
             <div style={{
